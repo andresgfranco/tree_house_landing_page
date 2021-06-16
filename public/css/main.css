@@ -1007,9 +1007,10 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #009EFF;
-  border-color: #009EFF;
-  color: #ffffff;
+
+  background: #ffffff;
+  border-color: #ffffff;
+  color: #141522;
 }
 
 .btn.btn--primary:hover,
@@ -1022,8 +1023,9 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #514686;
-  border-color: #514686;
+  background: #009EFF;
+  border-color: #009EFF;
+  color: #ffffff;
 }
 
 /* button modifiers
@@ -3194,15 +3196,7 @@ html.no-csstransitions .home-content__main {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-gap: 7%;
-  margin-bottom: 25%;
-}
-
-.immigo_features_content {
-  margin-right: auto;
-}
-
-.immigo_features_img {
-  margin-left: auto;
+  margin-bottom: 20%;
 }
 
 
