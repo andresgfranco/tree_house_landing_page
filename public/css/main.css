@@ -1499,7 +1499,7 @@ input::-moz-focus-inner {
  * ## section header
  * ------------------------------------------------------------------- */
 .section-header {
-  max-width: 800px;
+  max-width: auto;
 }
 
 .section-header.has-bottom-sep {
@@ -3189,57 +3189,22 @@ html.no-csstransitions .home-content__main {
   flex-direction: column;
 }
 
-/* WORK WITH GRID THE NEXT FEATURES */
-/* .first_feature {
-  display: flex;
-  column-gap: 10em;
+.immigo_features {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 7%;
+  margin-bottom: 25%;
 }
 
-.first_feature_content {
-  width: 100%;
-  height: 100%;
+.immigo_features_content {
   margin-right: auto;
 }
 
-.first_feature_img {
-  width: 100%;
-  height: 100%;
+.immigo_features_img {
   margin-left: auto;
 }
 
-.second_feature {
-  display: flex;
-  column-gap: 10em;
-}
-
-.second_feature_content {
-  width: 100%;
-  height: 100%;
-  margin-right: auto;
-}
-
-.second_feature_img {
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-}
-
-.third_feature {
-  display: flex;
-  column-gap: 10em;
-}
-
-.third_feature_content {
-  width: 100%;
-  height: 100%;
-  margin-right: auto;
-}
-
-.third_feature_img {
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-} */
 
 /* -------------------------------------------------------------------
  * responsive:
