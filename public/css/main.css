@@ -3192,10 +3192,9 @@ html.no-csstransitions .home-content__main {
 }
 
 .immigo_features {
-  width: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 7%;
+  grid-template-columns: 55% 45%;
+  grid-gap: 5%;
   margin-bottom: 20%;
 }
 
