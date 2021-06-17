@@ -2135,7 +2135,7 @@ input::-moz-focus-inner {
 
 .home-content__right {
   z-index: 500;
-  width: 700px;
+  width: 750px;
   position: absolute;
   right: 0;
   top: 0;
@@ -2143,7 +2143,7 @@ input::-moz-focus-inner {
 
 .home-content__right img {
   vertical-align: middle;
-  margin-left: 12rem;
+  margin-left: 7rem;
 }
 
 
