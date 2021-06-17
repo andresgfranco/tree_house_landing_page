@@ -198,7 +198,7 @@ p img {
 p.lead {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
-  font-size: 2.8rem;
+  font-size: 1.8rem;
   line-height: 1.571;
   margin-bottom: 3.6rem;
   color: #898989;
@@ -2084,8 +2084,7 @@ input::-moz-focus-inner {
 .home-content {
   z-index: 4;
   display: table-cell;
-  vertical-align: bottom;
-  padding-top: 24.8rem;
+  vertical-align: middle;
   width: 100%;
   position: relative;
 }
@@ -2136,15 +2135,15 @@ input::-moz-focus-inner {
 
 .home-content__right {
   z-index: 500;
-  width: 580px;
+  width: 700px;
   position: absolute;
   right: 0;
   top: 0;
 }
 
 .home-content__right img {
-  vertical-align: bottom;
-  margin-top: -5.2rem;
+  vertical-align: middle;
+  margin-left: 12rem;
 }
 
 
@@ -2898,7 +2897,7 @@ html.no-csstransitions .home-content__main {
   clear: both;
 }
 
-.process::before,
+/* .process::before,
 .process::after {
   content: "";
   display: block;
@@ -2907,7 +2906,7 @@ html.no-csstransitions .home-content__main {
   background-color: #eaeaea;
   position: absolute;
   top: 0;
-}
+} */
 
 .process::before {
   left: 0;
@@ -2952,7 +2951,9 @@ html.no-csstransitions .home-content__main {
   left: -27px;
 }
 
-
+.third_step {
+  margin-left: 25%;
+}
 /* -------------------------------------------------------------------
  * responsive:
  * about-how
@@ -3197,6 +3198,15 @@ html.no-csstransitions .home-content__main {
   grid-gap: 5%;
   margin-bottom: 20%;
 }
+
+.immigo_features_content.h1 {
+  margin-top: 150%;
+}
+
+.patreon_title {
+  margin-top: 15%;
+}
+
 
 
 /* -------------------------------------------------------------------
@@ -3713,7 +3723,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-footer {
-  padding-top: 18.4rem;
+  padding-top: 10rem;
   padding-bottom: 4.8rem;
   color: rgba(255, 255, 255, 0.4);
   position: relative;
